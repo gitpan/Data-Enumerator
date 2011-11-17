@@ -1,5 +1,5 @@
 ---
-abstract: unknown
+abstract: 'some iterator utilities for perl'
 author:
   - 'Daichi Hiroki <hirokidaichi {at} gmail.com>'
 build_requires:
@@ -12,20 +12,20 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Data-Generator
+name: Data-Enumerator
 no_index:
   directory:
     - inc
     - t
     - xt
 requires:
-  Data::Visitor::Callback: 0
+  Data::Visitor::Lite: 0
   Exporter: 0
   IO::File: 0
   List::MoreUtils: 0
   Scalar::Util: 0
 resources:
-  homepage: https://github.com/hirokidaichi/p5-Data-Generator/tree
+  homepage: https://github.com/hirokidaichi/p5-Data-Enumerator/tree
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/hirokidaichi/p5-Data-Generator.git
+  repository: git://github.com/hirokidaichi/p5-Data-Enumerator.git
 version: 0.01

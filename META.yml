@@ -20,13 +20,13 @@ no_index:
     - t
     - xt
 requires:
-  Data::Visitor::Callback: 0
+  Data::Visitor::Lite: 0
   Exporter: 0
   IO::File: 0
   List::MoreUtils: 0
   Scalar::Util: 0
 resources:
-  homepage: https://github.com/hirokidaichi/p5-Data-Generator/tree
+  homepage: https://github.com/hirokidaichi/p5-Data-Enumerator/tree
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/hirokidaichi/p5-Data-Generator.git
-version: 0.01
+  repository: git://github.com/hirokidaichi/p5-Data-Enumerator.git
+version: 0.02_1
