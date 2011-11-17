@@ -5,9 +5,9 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.36
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Module::Install version 1.04, CPAN::Meta::Converter version 2.112150'
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,17 +15,12 @@ meta-spec:
 name: Data-Enumerator
 no_index:
   directory:
-    - inc
     - t
-    - xt
+    - inc
 requires:
   Data::Visitor::Lite: 0
   Exporter: 0
   IO::File: 0
   List::MoreUtils: 0
   Scalar::Util: 0
-resources:
-  homepage: https://github.com/hirokidaichi/p5-Data-Enumerator/tree
-  license: http://dev.perl.org/licenses/
-  repository: git://github.com/hirokidaichi/p5-Data-Enumerator.git
-version: 0.01
+version: 0.03
